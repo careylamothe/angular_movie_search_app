@@ -1,0 +1,56 @@
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">{{ vm.movie.Title }}</h3>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-sm-4">
+        <img class="img-responsive" ng-src="{{vm.movie.Poster}}" alt="" />
+      </div>
+      <div class="col-sm-8">
+        <h4>Starring: {{ vm.movie.Actors }}</h4>
+        <p>{{ vm.movie.Plot }}</p>
+        <u><h3>Additional Details</h3></u>
+        <table class="table">
+          <th>Awards</th>
+          <tr><td>{{ vm.movie.Awards }}</td></tr>
+
+          <th>Country</th>
+          <tr><td>{{ vm.movie.Country }}</td></tr>
+
+          <th>Director</th>
+          <tr><td>{{ vm.movie.Director }}</td></tr>
+
+          <th>Genre</th>
+          <tr><td>{{ vm.movie.Genre }}</td></tr>
+
+          <th>Language</th>
+          <tr><td>{{ vm.movie.Language }}</td></tr>
+
+          <th>Rated</th>
+          <tr><td>{{ vm.movie.Rated }}</td></tr>
+
+          <th>Released</th>
+          <tr><td>{{ vm.movie.Released }}</td></tr>
+
+          <th>Metascore</th>
+          <tr><td>{{ vm.movie.Metascore }}</td></tr>
+
+          <th>Runtime</th>
+          <tr><td>{{ vm.movie.Runtime }}</td></tr>
+
+          <th>Writer</th>
+          <tr><td>{{ vm.movie.Runtime }}</td></tr>
+
+          <th>IMDb Votes</th>
+          <tr><td>{{ vm.movie.Runtime }}</td></tr>
+
+          <th>Awards</th>
+          <tr><td>{{ vm.movie.Awards }}</td></tr>
+
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
